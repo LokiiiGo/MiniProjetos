@@ -13,7 +13,7 @@
 <p>Um site para um curso de modelagem.</p>
 
 <h2>Hello World<h2><br>
-Olá, meu nome é Lucas :D<p>
+<p>Olá, meu nome é Lucas :D</p>
 
 <h2>Linktree</h2><br>
 <p>Uma página que reúne minhas redes sociais e descreve meus objetivos de carreira.</p>
