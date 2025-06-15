@@ -1,0 +1,386 @@
+/* Reset e configurações básicas */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffc62b;
+  font-family: "Arial", "Helvetica", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-logo {
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-logo img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.restaurant-logo figcaption {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.greeting {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/* Navigation */
+.main-nav {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+  background-color: #ffbb00;
+  color: white;
+}
+
+/* Main content */
+main {
+  padding: 2rem 0;
+}
+
+section {
+  margin: 3rem 0;
+  padding: 2rem 0;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+/* About section */
+.about-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* Popular dishes */
+.dishes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.dish-card {
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.dish-card:hover {
+  transform: translateY(-5px);
+}
+
+.dish-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.dish-card figcaption {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Menu section */
+.menu-category {
+  margin: 3rem 0;
+}
+
+.menu-category h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-table th,
+.menu-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ffbb00;
+}
+
+.menu-table th {
+  background-color: #ffbb00;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.menu-table tr:hover {
+  background-color: #fff3cd;
+}
+
+/* Social media section */
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.social-buttons a {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+  border: 2px solid #333;
+  border-radius: 10px;
+  font-weight: 800;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social-btn:hover {
+  background-color: #ffbb00;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-btn span {
+  font-size: 1.2rem;
+}
+
+/* Location section */
+.location-section {
+  text-align: center;
+}
+
+.location-section address {
+  font-style: normal;
+  margin: 1rem 0;
+}
+
+.location-section a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.location-section a:hover {
+  text-decoration: underline;
+}
+
+.map-container {
+  margin: 2rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+/* Curiosities section */
+.curiosities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.curiosity-card {
+  background-color: white;
+  border: 2px solid #f07c00;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.curiosity-card:hover {
+  transform: translateY(-5px);
+}
+
+.curiosity-card h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.curiosity-card p {
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin-top: 3rem;
+  margin: 0 0 2rem;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dishes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .curiosities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-btn {
+    width: 200px;
+    justify-content: center;
+  }
+
+  .menu-table th,
+  .menu-table td {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .map-container iframe {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+
+  .restaurant-logo {
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+
+  .greeting {
+    font-size: 1.2rem;
+  }
+}

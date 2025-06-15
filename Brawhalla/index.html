@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/imgs/icon_brawlhalla.png" type="image/x-icon">
+    <title>Semana do Zero ao Programador Contratado - Brawlhalla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imgs/wallpaper1.png" media="(min-width: 768px)">
+                <img class="imagem" src="./src/imgs/brawlmobilenix.png" alt="Retro Reaper Nix" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Retro Reaper Nix</h2>
+                <p class="descricao">No ano 20XX, uma fusão de linhas do tempo criou versões alternativas dos guerreiros de Valhalla.
+                     Nix foi transformada em dados e renasceu como Retro Reaper Nix, uma ceifadora digital que caça almas perdidas no ciberespaço.
+                    Usando um sobretudo holográfico e empunhando uma foice feita de código, ela apaga qualquer um com um único golpe. Seus blasters disparam energia 
+                    neon e deixam rastros por onde passam.
+                    Mesmo com seu visual retrô, ela é uma ceifadora moderna: rápida, precisa e sem piedade. As almas que captura não descansam — 
+                    ficam presas em um arquivo corrompido, para sempre.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imgs/wallpaperjiro.jpg" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imgs/brawlmobilejiro.png" alt="Jiro" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Shinigami Jiro</h2>
+                <p class="descricao">Jiro era um ninja poderoso, treinado nas artes secretas da escuridão. Um dia, ele fez um pacto com as sombras
+                     para se tornar mais forte. Desde então, sua sombra ganhou vida própria e luta ao lado dele.
+                    Agora, em Valhalla, Jiro usa sua espada e seus poderes sombrios para derrotar qualquer um 
+                    que cruze seu caminho. Silencioso, rápido e mortal, ele aparece e desaparece como fumaça.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imgs/wallpaperpetra.jpg" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imgs/brawlmobilepetra.png" alt="SourceCode Petra" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">SourceCode Petra</h2>
+                <p class="descricao">Durante a Guerra das Dimensões Digitais, Petra foi pega na explosão do Nexus
+                     Prismático e saiu de lá completamente transformada. Seu corpo virou um avatar instável, feito 
+                     de códigos quebrados e energia caótica.
+                    Agora, como Glitchcore Petra, ela caminha pelas arenas deixando distorções digitais por onde 
+                    passa. Seus olhos brilham como telas com erro, e suas manoplas soltam choques que atravessam 
+                    o tempo. O Orb ao seu lado não é só uma arma — é uma IA corrompida com vida própria.
+                    Com seu casaco estiloso e uma máscara com sorriso glitchado, Petra é um erro que ninguém pode 
+                    corrigir. Quem luta contra ela não perde... é desconectado da realidade para sempre.
+                    
+                    </p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imgs/wallpapernix.jpg" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imgs/brawlmobilenix1.png" alt="Grim Reaper Nix" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Grim Reaper Nix</h2>
+                <p class="descricao">Forjada nos segundos finais da realidade, Endtime Nix é a sombra
+                     que caminha quando o tempo expira. Com sua foice corroída pelo próprio fim e uma 
+                     ampulheta invertida em mãos, ela não ceifa apenas vidas — ela encerra eras.
+                    Não há fuga, não há reinício. Quando ela chega… é porque o tempo já acabou.
+                    
+                    </p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imgs/wallpaperartemis.jpg" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imgs/brawlmobileartemis.png" alt="Eclipse Artemis" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Eclipse Artemis</h2>
+                <p class="descricao">Vinda das profundezas do cosmos, Cosmic Artemis não é uma guerreira… 
+                    é um enigma. Sua armadura brilha como constelações distantes e sua foice corta até a escuridão do universo.
+                    Ela não fala. Ela orbita. E quando ataca, o espaço se curva ao seu redor.
+                    Onde ela passa, estrelas se apagam.</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao RetroReaperNix selecionado">
+                <img src="./src/imgs/icon_retro_reaper_nix.png" alt="Ícone Retro Reaper Nix" />
+            </button>
+        </li>
+        <li>
+            <button class="botao jiro">
+                <img src="./src/imgs/icon_jiro.png" alt="Ícone Thor" />
+            </button>
+        </li>
+        <li>
+            <button class="botao SourceCodePetra">
+                <img src="./src/imgs/icon_petra.png" alt="Ícone SourceCode Petra" />
+            </button>
+        </li>
+        <li>
+            <button class="botao GrimReaperNix">
+                <img src="./src/imgs/icon_nix_skin.png" alt="Ícone Grim Reaper Nix" />
+            </button>
+        </li>
+        <li>
+            <button class="botao EclipseArtemis">
+                <img src="./src/imgs/icon_artemis.png" alt="Ícone Eclipse Artemis" />
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>

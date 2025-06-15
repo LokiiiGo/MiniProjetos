@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash of Legends | Cartas</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars-bg"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Clash of Legends</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Início</a></li>
+                <li><a href="instructions.html" class="nav-link">Instruções</a></li>
+                <li><a href="cards.html" class="nav-link active">Cartas</a></li>
+                <li><a href="#" class="nav-link">Jogar</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="cards-page">
+        <div class="container">
+            <h1 class="page-title">Cartas Históricas do Clash of Legends</h1>
+            
+            <div class="card-filters">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="character">Personagens</button>
+                <button class="filter-btn" data-filter="support">Suporte</button>
+            </div>
+
+            <div class="cards-grid" id="cardsGrid">
+                <div class="game-card character" data-card="einstein">
+                    <div class="card-image">
+                        <img src="img/albertEinstein.png" alt="Albert Einstein">
+                        <div class="card-level">Nível 5</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Albert Einstein</h3>
+                        <div class="card-stats">
+                            <span class="stat attack">ATK: 2500</span>
+                            <span class="stat defense">DEF: 2100</span>
+                        </div>
+                        <p class="card-description">O gênio da física moderna. Sua teoria da relatividade revolucionou nossa compreensão do universo.</p>
+                    </div>
+                </div>
+
+                <div class="game-card character" data-card="newton">
+                    <div class="card-image">
+                        <img src="img/isaacNewton.png" alt="Isaac Newton">
+                        <div class="card-level">Nível 8</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Isaac Newton</h3>
+                        <div class="card-stats">
+                            <span class="stat attack">ATK: 2600</span>
+                            <span class="stat defense">DEF: 2200</span>
+                        </div>
+                        <p class="card-description">O pai da física clássica. Suas leis do movimento governam o mundo físico.</p>
+                    </div>
+                </div>
+
+                <div class="game-card character" data-card="cleopatra">
+                    <div class="card-image">
+                        <img src="img/cleopatra.png" alt="Cleópatra">
+                        <div class="card-level">Nível 6</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Cleópatra</h3>
+                        <div class="card-stats">
+                            <span class="stat attack">ATK: 2800</span>
+                            <span class="stat defense">DEF: 2200</span>
+                        </div>
+                        <p class="card-description">A última faraó do Egito. Sua inteligência e carisma conquistaram impérios.</p>
+                    </div>
+                </div>
+
+                <div class="game-card character" data-card="curie">
+                    <div class="card-image">
+                        <img src="img/marieCurie.png" alt="Marie Curie">
+                        <div class="card-level">Nível 3</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Marie Curie</h3>
+                        <div class="card-stats">
+                            <span class="stat attack">ATK: 2000</span>
+                            <span class="stat defense">DEF: 1900</span>
+                        </div>
+                        <p class="card-description">Pioneira da radioatividade. Primeira mulher a ganhar um Prêmio Nobel.</p>
+                    </div>
+                </div>
+
+                <div class="game-card character" data-card="davinci">
+                    <div class="card-image">
+                        <img src="img/leonardoVinci.png" alt="Leonardo da Vinci">
+                        <div class="card-level">Nível 2</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Leonardo da Vinci</h3>
+                        <div class="card-stats">
+                            <span class="stat attack">ATK: 2400</span>
+                            <span class="stat defense">DEF: 2000</span>
+                        </div>
+                        <p class="card-description">O homem renascentista por excelência. Artista, inventor e cientista.</p>
+                    </div>
+                </div>
+
+                <div class="game-card character" data-card="turing">
+                    <div class="card-image">
+                        <img src="img/alanTuring.png" alt="Alan Turing">
+                        <div class="card-level">Nível 4</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Alan Turing</h3>
+                        <div class="card-stats">
+                            <span class="stat attack">ATK: 2300</span>
+                            <span class="stat defense">DEF: 2000</span>
+                        </div>
+                        <p class="card-description">O pai da computação moderna. Quebrou códigos e criou a base da inteligência artificial.</p>
+                    </div>
+                </div>
+
+                <div class="game-card support" data-card="vida">
+                    <div class="card-image">
+                        <img src="img/suporteVida.png" alt="Suporte de Vida">
+                        <div class="card-type">Suporte</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Suporte de Vida</h3>
+                        <div class="card-effect">
+                            <span class="effect">+1000 Pontos de Vida</span>
+                        </div>
+                        <p class="card-description">Restaura a vitalidade do jogador, concedendo pontos de vida adicionais.</p>
+                    </div>
+                </div>
+
+                <div class="game-card support" data-card="protecao">
+                    <div class="card-image">
+                        <img src="img/suporteProtecao.png" alt="Suporte de Proteção">
+                        <div class="card-type">Suporte</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Suporte de Proteção</h3>
+                        <div class="card-effect">
+                            <span class="effect">+400 Defesa</span>
+                        </div>
+                        <p class="card-description">Fortalece as defesas do personagem, aumentando sua resistência.</p>
+                    </div>
+                </div>
+
+                <div class="game-card support" data-card="ataque">
+                    <div class="card-image">
+                        <img src="img/suporteAtaque.png" alt="Suporte de Dobro Ataque">
+                        <div class="card-type">Suporte</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Dobro Ataque</h3>
+                        <div class="card-effect">
+                            <span class="effect">+500 Ataque</span>
+                        </div>
+                        <p class="card-description">Amplifica o poder ofensivo do personagem, dobrando sua força de ataque.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation-buttons">
+                <a href="instructions.html" class="btn btn-secondary">Ver Instruções</a>
+                <a href="#" class="btn btn-primary">Jogar Agora</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/cards.js"></script>
+</body>
+</html>

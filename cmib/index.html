@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/iconcmib.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>CMIB - Centro de Modelagem Industrial Boliviano</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./img/iconcmib.jpg" alt="CMIB Logo">
+                <span>CMIB</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link">Início</a>
+                <a href="#curso" class="nav-link">Curso</a>
+                <a href="#detalhes" class="nav-link">Detalhes</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="./img/header.jpg" alt="Centro de Modelagem Industrial Boliviano">
+            </div>
+            <div class="hero-text">
+                <h1>Centro de Modelagem Industrial Boliviano</h1>
+                <p class="hero-subtitle">Inscrições Fechadas</p>
+                <div class="hero-badges">
+                    <span class="badge">Curso Prático</span>
+                    <span class="badge">Presencial</span>
+                    <span class="badge">Grupos Limitados</span>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('curso')">
+                    Saiba Mais <i class="fas fa-arrow-down"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="course-info" id="curso">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Curso de Modelagem Industrial Integrado</h2>
+                    <p>Transforme sua paixão pela moda em uma carreira profissional</p>
+                </div>
+
+                <div class="course-grid">
+                    <div class="course-card">
+                        <div class="card-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>Início das Aulas</h3>
+                        <div class="course-dates">
+                            <p><strong>Sexta-feira:</strong> 18 de Abril de 2025</p>
+                            <p><strong>Sábado:</strong> 19 de Abril de 2025</p>
+                            <p><strong>Domingo:</strong> 20 de Abril de 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Grupos Limitados</h3>
+                        <p>Máximo de <strong>15 alunos</strong> por grupo para garantir atenção personalizada</p>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="card-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Carga Horária</h3>
+                        <p><strong>3 horas</strong> de aula por semana<br>Uma vez por semana</p>
+                    </div>
+                </div>
+
+                <div class="schedule-section">
+                    <h3>Horários Disponíveis</h3>
+                    <div class="schedule-grid">
+                        <div class="schedule-card">
+                            <h4><i class="fas fa-calendar-day"></i> Sexta-feira</h4>
+                            <p>14:00 às 17:00h</p>
+                        </div>
+                        <div class="schedule-card">
+                            <h4><i class="fas fa-calendar-day"></i> Sábado</h4>
+                            <p>09:00 às 12:00h<br>14:00 às 17:00h</p>
+                        </div>
+                        <div class="schedule-card">
+                            <h4><i class="fas fa-calendar-day"></i> Domingo</h4>
+                            <p>09:00 às 12:00h<br>14:00 às 17:00h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="curriculum">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Calendário de Atividades</h2>
+                    <p>Destinado para pessoas sem ou com experiência em modelagem</p>
+                </div>
+
+                <div class="curriculum-tabs">
+                    <button class="tab-button active" onclick="showTab('methods')">Métodos</button>
+                    <button class="tab-button" onclick="showTab('projects')">Projetos Práticos</button>
+                </div>
+
+                <div class="tab-content active" id="methods">
+                    <div class="curriculum-grid">
+                        <div class="curriculum-item">
+                            <i class="fas fa-tshirt"></i>
+                            <h4>Método para copiar blusa</h4>
+                        </div>
+                        <div class="curriculum-item">
+                            <i class="fas fa-user-tie"></i>
+                            <h4>Método para copiar calça</h4>
+                        </div>
+                        <div class="curriculum-item">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                            <h4>Progressão de tamanhos</h4>
+                            <p>Ampliação e redução para malha e tecido plano</p>
+                        </div>
+                        <div class="curriculum-item">
+                            <i class="fas fa-ruler"></i>
+                            <h4>Medidas personalizadas</h4>
+                            <p>Moldes sob medida para malha e tecido plano</p>
+                        </div>
+                        <div class="curriculum-item">
+                            <i class="fas fa-industry"></i>
+                            <h4>Moldes industriais</h4>
+                            <p>Bases padrão com medidas industriais</p>
+                        </div>
+                        <div class="curriculum-item">
+                            <i class="fas fa-image"></i>
+                            <h4>Interpretação por foto</h4>
+                            <p>Criar moldes por foto ou desenho</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="projects">
+                    <div class="projects-grid">
+                        <div class="project-item">
+                            <h4>Vestidos</h4>
+                            <ul>
+                                <li>Vestido de tecido malha</li>
+                                <li>Vestido de tecido plano</li>
+                                <li>Top Cropped para festa</li>
+                            </ul>
+                        </div>
+                        <div class="project-item">
+                            <h4>Peças Básicas</h4>
+                            <ul>
+                                <li>Saia com cintura elástica</li>
+                                <li>Calça, short e bermuda</li>
+                                <li>Gola de blazer</li>
+                            </ul>
+                        </div>
+                        <div class="project-item">
+                            <h4>Tipos de Manga</h4>
+                            <ul>
+                                <li>Manga Baby look</li>
+                                <li>Manga princesa</li>
+                                <li>Manga bufante</li>
+                                <li>Manga Evasê</li>
+                                <li>Manga anatômica</li>
+                                <li>Manga de Blazer</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-goal">
+                    <h3>Meta do Curso</h3>
+                    <p>Especializar o modelador em processos criativos para o desenvolvimento e produção de novas peças de vestuário por meio de foto ou desenho.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="details" id="detalhes">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Detalhes do Curso</h2>
+                </div>
+                
+                <div class="details-content">
+                    <div class="details-image">
+                        <img src="./img/detalhesCurso.jpg" alt="Detalhes do curso">
+                    </div>
+                    
+                    <div class="video-section">
+                        <h3>Conheça mais sobre o curso</h3>
+                        <div class="video-container">
+                            <iframe 
+                                src="https://www.youtube.com/embed/1nX6WUTJSCs?si=VAPwTmA3NJ0K-LzF" 
+                                title="Detalhes do curso CMIB"
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <blockquote>
+                        "A moda brasileira tem todos os ingredientes para ser a moda mais criativa e original do mundo."
+                    </blockquote>
+                    <div class="testimonial-image">
+                        <img src="./img/alunasModelistas.jpg" alt="Alunas estudando modelagem">
+                    </div>
+                </div>
+
+                <div class="fashion-info">
+                    <h3>São Paulo: Capital da Moda Latino-Americana</h3>
+                    <p>São Paulo não é apenas o centro da moda do Brasil: é o centro da moda da América Latina. Segundo dados do Global Fashion & Luxury Cities Index, publicados em 2023, a cidade é a décima capital mais importante do setor no mundo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contato">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Entre em Contato</h2>
+                    <p>Siga-nos nas redes sociais e fique por dentro de todas as novidades</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.instagram.com/cmib.oficial/" class="social-link instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.facebook.com/cmib.curso?locale=pt_BR" class="social-link facebook">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.youtube.com/@cmib.oficial" class="social-link youtube">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@cmib.oficial" class="social-link tiktok">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </a>
+                </div>
+
+                <div class="hashtags">
+                    <span>#CMIB</span>
+                    <span>#modelagemindustrial</span>
+                    <span>#modelagem</span>
+                    <span>#modelagemindustrialboliviano</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CMIB - Centro de Modelagem Industrial Boliviano. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
