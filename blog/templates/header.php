@@ -27,7 +27,7 @@
         <nav>
             <ul id="navbar">
                 <li><a href="index.php" class="nav-link">Home</a></li>
-                <li><a href="./data/categories.php" class="nav-link">Categorias</a></li>
+                <li><a href="#" class="nav-link">Categorias</a></li>
                 <li><a href="#" class="nav-link">Sobre</a></li>
                 <li><a href="#" class="nav-link">Contato</a></li>
             </ul>

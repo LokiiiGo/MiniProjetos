@@ -1,5 +1,5 @@
 <footer>
-    <p>Blog pesoal do Lucas &copy;</p>
+    <p>&copy; Blog de Programação. Todos os Direitos Reservados</p>
 </footer>
 </body>
 </html>

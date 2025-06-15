@@ -8,14 +8,14 @@ include_once ("templates/header.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Estilos do projetos!-->
-    <link rel="stylesheet" href="<?=$BASE_URL?>./stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="<?=$BASE_URL?>./stylesheet/stylesheet.css">
 </head>
 
 <body>
 <main>
     <div id="title-container">
-      <h1>Blog do Lokistrange</h1>
-      <p>O seu blog de Programação</p>
+      <h1>Blog de Programação</h1>
+      <p>Autor: Lucas Chambi</p>
     </div>
     <div id="posts-container">
       <?php foreach($posts as $post): ?>
