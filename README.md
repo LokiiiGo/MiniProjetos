@@ -21,7 +21,7 @@
 <h2>Restaurant Tagline<br></h2>
 <p>Um projeto de restaurante fictício.</p>
 <br>
-<h2>Spotiy</h2>
+<h2>Spotify</h2>
 <p>Uma réplica da interface da maior plataforma de música do mundo.</p>
 <br>
 <h2>SquidGame (Round6)</h2>
