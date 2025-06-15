@@ -1,21 +1,21 @@
 # Meus Projetos 
 
-<h2>Blog</h2><br>
+<h2>Blog</h2>
 <p>Um site de blog sobre programação. Ainda está em desenvolvimento.</p>
 
-<h2>Brawlhalla</h2><br>
+<h2>Brawlhalla</h2>
 <p>Este projeto foi desenvolvido para o curso "Do Zero ao Programador Contratado". O tema sugerido era Dragon Ball Z, mas como havia a liberdade de escolher outro, optei pelo jogo Brawlhalla (meu favorito!), que está disponível para todas as plataformas.</p>
 
-<h2>Clash Of Legends<h2><br>
+<h2>Clash Of Legends<h2>
 <p>Um projeto de jogo de cartas com personagens históricos, em um estilo inspirado em Yu-Gi-Oh.</p>
 
 <h2>CMIB</h2>
 <p>Um site para um curso de modelagem.</p>
 
-<h2>Hello World<h2><br>
+<h2>Hello World<h2>
 <p>Olá, meu nome é Lucas :D</p>
 
-<h2>Linktree</h2><br>
+<h2>Linktree</h2>
 <p>Uma página que reúne minhas redes sociais e descreve meus objetivos de carreira.</p>
 
 <h2>Restaurant Tagline<br></h2>
