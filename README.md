@@ -1,5 +1,3 @@
-# Meus Projetos 
-
 <h2>Blog</h2>
 <p>Um site de blog sobre programação. Ainda está em desenvolvimento.</p>
 <br>
